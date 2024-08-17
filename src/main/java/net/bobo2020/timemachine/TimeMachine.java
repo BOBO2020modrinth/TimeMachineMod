@@ -1,5 +1,8 @@
 package net.bobo2020.timemachine;
 
+import net.bobo2020.timemachine.block.ModBlocks;
+import net.bobo2020.timemachine.item.ModCreativeModeTabs;
+import net.bobo2020.timemachine.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -33,6 +36,15 @@ public class TimeMachine {
     public TimeMachine(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        // Adding Existing Things
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+        // Adding Features
+        ModCreativeModeTabs.register(modEventBus);
+
+        // Adding Libs or something
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.

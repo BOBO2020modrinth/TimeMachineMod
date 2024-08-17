@@ -1,0 +1,11 @@
+{
+  "item.time_machine.stone_shard_light": "Stone Shard",
+
+  "block.time_machine.ancient_light_stone": "Ancient Light Stone",
+  "block.time_machine.ancient_light_cobblestone": "Ancient Light Cobblestone",
+  "block.time_machine.light_stone_bricks": "Light Bricks",
+  "block.time_machine.light_stone_tile": "Light Tile",
+
+  "itemGroup.time_machine.ancient_era_item": "Ancient Era: Item",
+  "itemGroup.time_machine.ancient_era_block": "Ancient Era: Block"
+}
