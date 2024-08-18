@@ -18,9 +18,9 @@ import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraft.world.level.storage.loot.predicates.MatchTool;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
-
 import java.util.Set;
-    public class ModBlockLootTableProvider extends BlockLootSubProvider {
+
+public class ModBlockLootTableProvider extends BlockLootSubProvider {
         protected ModBlockLootTableProvider(HolderLookup.Provider registries) {
             super(Set.of(), FeatureFlags.REGISTRY.allFlags(), registries);
         }
@@ -31,11 +31,15 @@ import java.util.Set;
     protected void generate() {
         dropSelf(ModBlocks.LIGHT_STONE_BRICKS.get());
         dropSelf(ModBlocks.LIGHT_STONE_TILE.get());
+        dropSelf(ModBlocks.ANTIMONY_BLOCK.get());
 
         this.add(ModBlocks.ANCIENT_LIGHT_STONE.get(),
-                block -> createShardDrop(ModBlocks.ANCIENT_LIGHT_STONE.get(), ModItems.STONE_SHARD_LIGHT.get()));
+                block -> createShardDrop(ModBlocks.ANCIENT_LIGHT_COBBLESTONE.get(), ModItems.STONE_SHARD_LIGHT.get()));
         this.add(ModBlocks.ANCIENT_LIGHT_COBBLESTONE.get(),
                 block -> createShardDrop(ModBlocks.ANCIENT_LIGHT_COBBLESTONE.get(), ModItems.STONE_SHARD_LIGHT.get()));
+
+        this.add(ModBlocks.ANTIMONY_ORE.get(),
+                block -> createOreDrop(ModBlocks.ANTIMONY_ORE.get(), ModItems.RAW_ANTIMONY.get()));
     }
 
     @Override

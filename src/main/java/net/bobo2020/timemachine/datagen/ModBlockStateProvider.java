@@ -19,6 +19,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.ANCIENT_LIGHT_COBBLESTONE);
         blockWithItem(ModBlocks.LIGHT_STONE_BRICKS);
         blockWithItem(ModBlocks.LIGHT_STONE_TILE);
+        blockWithItem(ModBlocks.ANTIMONY_ORE);
+        blockWithItem(ModBlocks.ANTIMONY_BLOCK);
     }
 
     private void blockWithItem(DeferredBlock<Block> deferredBlock) {

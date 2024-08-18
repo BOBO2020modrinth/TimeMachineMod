@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "group": "antimony",
+  "ingredient": {
+    "item": "time_machine:antimony_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "time_machine:antimony_ingot"
+  }
+}

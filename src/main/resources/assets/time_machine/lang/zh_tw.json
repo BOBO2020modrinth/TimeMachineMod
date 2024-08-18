@@ -1,10 +1,16 @@
 {
   "item.time_machine.stone_shard_light": "古光石碎片",
 
+  "item.time_machine.raw_antimony": "銻原礦",
+  "item.time_machine.antimony_ingot": "銻錠",
+
   "block.time_machine.ancient_light_stone": "古光石",
   "block.time_machine.ancient_light_cobblestone": "古光鵝卵石",
   "block.time_machine.light_stone_bricks": "古光磚",
   "block.time_machine.light_stone_tile": "古光磁磚",
+
+  "block.time_machine.antimony_ore": "銻礦",
+  "block.time_machine.antimony_block": "銻塊",
 
   "itemGroup.time_machine.ancient_era_item": "遠古時代: 物品",
   "itemGroup.time_machine.ancient_era_block": "遠古時代: 方塊"

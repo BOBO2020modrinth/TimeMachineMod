@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": "minecraft:wooden_pickaxe"
+                  }
+                }
+              ],
+              "name": "time_machine:ancient_light_cobblestone"
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "function": "minecraft:explosion_decay"
+                },
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 5.0,
+                    "min": 3.0
+                  },
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "time_machine:stone_shard_light"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "time_machine:blocks/ancient_light_cobblestone"
+}

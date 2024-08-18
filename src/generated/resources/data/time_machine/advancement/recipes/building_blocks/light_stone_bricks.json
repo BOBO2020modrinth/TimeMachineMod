@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_light_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "time_machine:ancient_light_stone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "time_machine:light_stone_bricks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_light_stone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "time_machine:light_stone_bricks"
+    ]
+  }
+}

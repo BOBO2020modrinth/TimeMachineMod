@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.75,
+  "group": "antimony",
+  "ingredient": {
+    "item": "time_machine:antimony_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "time_machine:antimony_ingot"
+  }
+}

@@ -22,6 +22,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.ANCIENT_LIGHT_STONE.get())
                 .add(ModBlocks.ANCIENT_LIGHT_COBBLESTONE.get())
                 .add(ModBlocks.LIGHT_STONE_BRICKS.get())
-                .add(ModBlocks.LIGHT_STONE_TILE.get());
+                .add(ModBlocks.LIGHT_STONE_TILE.get())
+                .add(ModBlocks.ANTIMONY_ORE.get())
+                .add(ModBlocks.ANTIMONY_BLOCK.get());
+
+        this.tag(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.ANTIMONY_ORE.get())
+                .add(ModBlocks.ANTIMONY_BLOCK.get());
     }
 }

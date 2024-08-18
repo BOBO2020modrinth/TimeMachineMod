@@ -21,6 +21,8 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("itemGroup.time_machine.ancient_era_item"))
                     .icon(() -> new ItemStack(ModItems.STONE_SHARD_LIGHT.get()))
                     .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.RAW_ANTIMONY);
+                        pOutput.accept(ModItems.ANTIMONY_INGOT);
                         pOutput.accept(ModItems.STONE_SHARD_LIGHT);
                     }).build());
 
@@ -34,6 +36,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.ANCIENT_LIGHT_COBBLESTONE);
                         pOutput.accept(ModBlocks.LIGHT_STONE_BRICKS);
                         pOutput.accept(ModBlocks.LIGHT_STONE_TILE);
+                        pOutput.accept(ModBlocks.ANTIMONY_ORE);
+                        pOutput.accept(ModBlocks.ANTIMONY_BLOCK);
                     }).build());
 
     public static void register(IEventBus eventBus) {

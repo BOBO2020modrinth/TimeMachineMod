@@ -13,6 +13,9 @@ public class ModItems {
         // Default Items
     public static final DeferredItem<Item> STONE_SHARD_LIGHT = ITEMS.registerSimpleItem("stone_shard_light");
 
+    public static final DeferredItem<Item> RAW_ANTIMONY = ITEMS.registerSimpleItem("raw_antimony");
+    public static final DeferredItem<Item> ANTIMONY_INGOT = ITEMS.registerSimpleItem("antimony_ingot");
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

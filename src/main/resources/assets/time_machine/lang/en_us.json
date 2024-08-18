@@ -1,10 +1,16 @@
 {
   "item.time_machine.stone_shard_light": "Stone Shard",
 
+  "item.time_machine.raw_antimony": "Raw Antimony",
+  "item.time_machine.antimony_ingot": "Antimony Ingot",
+
   "block.time_machine.ancient_light_stone": "Ancient Light Stone",
   "block.time_machine.ancient_light_cobblestone": "Ancient Light Cobblestone",
   "block.time_machine.light_stone_bricks": "Light Bricks",
   "block.time_machine.light_stone_tile": "Light Tile",
+
+  "block.time_machine.antimony_ore": "Antimony Ore",
+  "block.time_machine.antimony_block": "Antimony Block",
 
   "itemGroup.time_machine.ancient_era_item": "Ancient Era: Item",
   "itemGroup.time_machine.ancient_era_block": "Ancient Era: Block"

@@ -14,5 +14,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         basicItem(ModItems.STONE_SHARD_LIGHT.get());
+        basicItem(ModItems.RAW_ANTIMONY.get());
+        basicItem(ModItems.ANTIMONY_INGOT.get());
     }
 }
