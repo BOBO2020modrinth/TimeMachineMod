@@ -2,6 +2,7 @@ package net.bobo2020.timemachine.datagen;
 
 import net.bobo2020.timemachine.block.ModBlocks;
 import net.bobo2020.timemachine.item.ModItems;
+import net.bobo2020.timemachine.util.ModTags;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
@@ -18,6 +19,8 @@ import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraft.world.level.storage.loot.predicates.MatchTool;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
+
+import java.util.List;
 import java.util.Set;
 
 public class ModBlockLootTableProvider extends BlockLootSubProvider {
@@ -25,7 +28,10 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
             super(Set.of(), FeatureFlags.REGISTRY.allFlags(), registries);
         }
 
-    protected static final LootItemCondition.Builder HAS_PICKAXE;
+        protected static final LootItemCondition.Builder HAS_PICKAXE;
+
+        static List<ItemLike> PICKAXE = List.of(Items.WOODEN_PICKAXE, Items.STONE_PICKAXE, Items.IRON_PICKAXE,
+                Items.GOLDEN_PICKAXE, Items.DIAMOND_PICKAXE, Items.NETHERITE_PICKAXE);
 
     @Override
     protected void generate() {
@@ -59,6 +65,6 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     static {
         HAS_PICKAXE = MatchTool.toolMatches(ItemPredicate.Builder.item()
-                .of(new ItemLike[]{Items.WOODEN_PICKAXE}));
+                .of(ModTags.Items.PICKAXES));
     }
 }

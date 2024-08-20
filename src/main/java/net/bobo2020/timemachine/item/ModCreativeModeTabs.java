@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RAW_ANTIMONY);
                         pOutput.accept(ModItems.ANTIMONY_INGOT);
                         pOutput.accept(ModItems.STONE_SHARD_LIGHT);
+                        pOutput.accept(ModItems.PURSLANE);
                     }).build());
 
     public static final Supplier<CreativeModeTab> ANCIENT_ERA_BLOCK =

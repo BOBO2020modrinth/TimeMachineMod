@@ -1,9 +1,11 @@
 package net.bobo2020.timemachine.datagen;
 
 import net.bobo2020.timemachine.TimeMachine;
+import net.bobo2020.timemachine.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -17,6 +19,12 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-
+        tag(ModTags.Items.PICKAXES)
+                .add(Items.WOODEN_PICKAXE)
+                .add(Items.STONE_PICKAXE)
+                .add(Items.IRON_PICKAXE)
+                .add(Items.GOLDEN_PICKAXE)
+                .add(Items.DIAMOND_PICKAXE)
+                .add(Items.NETHERITE_PICKAXE);
     }
 }

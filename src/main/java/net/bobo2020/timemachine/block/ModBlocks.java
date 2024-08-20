@@ -1,10 +1,13 @@
 package net.bobo2020.timemachine.block;
 
 import net.bobo2020.timemachine.TimeMachine;
+import net.bobo2020.timemachine.block.custom.RuneBlock;
 import net.bobo2020.timemachine.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
@@ -29,7 +32,8 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().strength(0.8f).sound(SoundType.STONE).requiresCorrectToolForDrops()));
 
     public static final DeferredBlock<Block> ANTIMONY_ORE = registerBlock("antimony_ore",
-            () -> new Block(BlockBehaviour.Properties.of().strength(1.4f).sound(SoundType.STONE).requiresCorrectToolForDrops()));
+            () -> new DropExperienceBlock(UniformInt.of(2, 6),BlockBehaviour.Properties.of()
+                    .strength(1.4f).sound(SoundType.STONE).requiresCorrectToolForDrops()));
     public static final DeferredBlock<Block> ANTIMONY_BLOCK = registerBlock("antimony_block",
             () -> new Block(BlockBehaviour.Properties.of().strength(1.5f).sound(SoundType.METAL).requiresCorrectToolForDrops()));
 

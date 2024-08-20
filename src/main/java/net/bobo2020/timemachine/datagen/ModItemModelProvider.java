@@ -16,5 +16,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.STONE_SHARD_LIGHT.get());
         basicItem(ModItems.RAW_ANTIMONY.get());
         basicItem(ModItems.ANTIMONY_INGOT.get());
+        basicItem(ModItems.PURSLANE.get());
     }
 }

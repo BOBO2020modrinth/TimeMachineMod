@@ -16,6 +16,9 @@ public class ModItems {
     public static final DeferredItem<Item> RAW_ANTIMONY = ITEMS.registerSimpleItem("raw_antimony");
     public static final DeferredItem<Item> ANTIMONY_INGOT = ITEMS.registerSimpleItem("antimony_ingot");
 
+    public static final DeferredItem<Item> PURSLANE =
+            ITEMS.registerItem("purslane", Item::new, new Item.Properties().food(ModFoodProperties.PURSLANE));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
