@@ -37,7 +37,11 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.ANCIENT_LIGHT_STONE);
                         pOutput.accept(ModBlocks.LIGHT_STONE_STAIRS);
                         pOutput.accept(ModBlocks.LIGHT_STONE_SLAB);
+                        pOutput.accept(ModBlocks.LIGHT_STONE_PRESSURE_PLATE);
+                        pOutput.accept(ModBlocks.LIGHT_STONE_BUTTON);
                         pOutput.accept(ModBlocks.ANCIENT_LIGHT_COBBLESTONE);
+                        pOutput.accept(ModBlocks.LIGHT_COBBLESTONE_STAIRS);
+                        pOutput.accept(ModBlocks.LIGHT_COBBLESTONE_SLAB);
                         pOutput.accept(ModBlocks.LIGHT_STONE_BRICKS);
                         pOutput.accept(ModBlocks.LIGHT_STONE_TILE);
                         pOutput.accept(ModBlocks.ANTIMONY_ORE);

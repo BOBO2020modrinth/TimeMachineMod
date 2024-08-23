@@ -1,19 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "light_stone",
+  "category": "redstone",
   "key": {
     "#": {
       "item": "time_machine:ancient_light_stone"
     }
   },
   "pattern": [
-    "#  ",
-    "## ",
-    "###"
+    "##"
   ],
   "result": {
-    "count": 4,
-    "id": "time_machine:light_stone_stairs"
+    "count": 1,
+    "id": "time_machine:light_stone_pressure_plate"
   }
 }

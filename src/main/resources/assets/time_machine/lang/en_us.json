@@ -15,6 +15,11 @@
 
   "block.time_machine.light_stone_stairs": "Light Stone Stairs",
   "block.time_machine.light_stone_slab": "Light Stone Slab",
+  "block.time_machine.light_cobblestone_stairs": "Light Cobblestone Stairs",
+  "block.time_machine.light_cobblestone_slab": "Light Cobblestone Slab",
+
+  "block.time_machine.light_stone_pressure_plate": "Light Stone Pressure Plate",
+  "block.time_machine.light_stone_button": "Light Stone Button",
 
   "block.time_machine.antimony_ore": "Antimony Ore",
   "block.time_machine.antimony_block": "Block of Antimony",

@@ -7,6 +7,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -35,6 +36,19 @@ public class ModBlocks {
     public static final DeferredBlock<Block> LIGHT_STONE_SLAB = registerBlock("light_stone_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of().strength(0.75f).sound(SoundType.STONE)
                     .requiresCorrectToolForDrops()));
+    public static final DeferredBlock<Block> LIGHT_COBBLESTONE_STAIRS = registerBlock("light_cobblestone_stairs",
+            () -> new StairBlock(ModBlocks.ANCIENT_LIGHT_COBBLESTONE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(0.75f).sound(SoundType.STONE).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<Block> LIGHT_COBBLESTONE_SLAB = registerBlock("light_cobblestone_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(0.75f).sound(SoundType.STONE)
+                    .requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> LIGHT_STONE_PRESSURE_PLATE = registerBlock("light_stone_pressure_plate",
+            () -> new PressurePlateBlock(BlockSetType.STONE, BlockBehaviour.Properties.of().strength(0.75f)
+                    .sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission()));
+    public static final DeferredBlock<Block> LIGHT_STONE_BUTTON = registerBlock("light_stone_button",
+            () -> new ButtonBlock(BlockSetType.STONE, 15, BlockBehaviour.Properties.of().strength(0.75f)
+                    .sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission()));
 
     public static final DeferredBlock<Block> ANTIMONY_ORE = registerBlock("antimony_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 6),BlockBehaviour.Properties.of()

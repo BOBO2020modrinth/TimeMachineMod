@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "light_stone",
+  "ingredients": [
+    {
+      "item": "time_machine:ancient_light_stone"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "time_machine:light_stone_button"
+  }
+}

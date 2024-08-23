@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "time_machine:block/ancient_light_stone"
+  }
+}

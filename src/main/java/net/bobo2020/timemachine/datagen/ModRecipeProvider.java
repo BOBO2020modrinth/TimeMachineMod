@@ -49,11 +49,21 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_light_stone", has(ModItems.ANTIMONY_INGOT.get())).save(pRecipeOutput);
 
         stairBuilder(ModBlocks.LIGHT_STONE_STAIRS.get(), Ingredient.of(ModBlocks.ANCIENT_LIGHT_STONE.get()))
-                .group("light_stairs").unlockedBy("has_light_stone", has(ModBlocks.ANCIENT_LIGHT_STONE.get()))
+                .group("light_stone").unlockedBy("has_light_stone", has(ModBlocks.ANCIENT_LIGHT_STONE.get()))
                 .save(pRecipeOutput);
+        stairBuilder(ModBlocks.LIGHT_COBBLESTONE_STAIRS.get(), Ingredient.of(ModBlocks.ANCIENT_LIGHT_COBBLESTONE.get()))
+                .group("light_cobblestone").unlockedBy("has_light_cobblestone",
+                        has(ModBlocks.ANCIENT_LIGHT_COBBLESTONE.get())).save(pRecipeOutput);
 
         slab(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_STONE_SLAB.get(),
                 ModBlocks.ANCIENT_LIGHT_STONE.get());
+        slab(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_COBBLESTONE_SLAB.get(),
+                ModBlocks.ANCIENT_LIGHT_COBBLESTONE.get());
+
+        pressurePlate(pRecipeOutput, ModBlocks.LIGHT_STONE_PRESSURE_PLATE.get(), ModBlocks.ANCIENT_LIGHT_STONE.get());
+        buttonBuilder(ModBlocks.LIGHT_STONE_BUTTON.get(), Ingredient.of(ModBlocks.ANCIENT_LIGHT_STONE.get()))
+                .group("light_stone").unlockedBy("has_light_stone", has(ModBlocks.ANCIENT_LIGHT_STONE.get()))
+                .save(pRecipeOutput);
 
         // Smelting
         oreSmelting(pRecipeOutput, LIGHT_STONE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ANCIENT_LIGHT_STONE.get(),

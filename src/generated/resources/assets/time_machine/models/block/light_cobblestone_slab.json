@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "time_machine:block/ancient_light_cobblestone",
+    "side": "time_machine:block/ancient_light_cobblestone",
+    "top": "time_machine:block/ancient_light_cobblestone"
+  }
+}

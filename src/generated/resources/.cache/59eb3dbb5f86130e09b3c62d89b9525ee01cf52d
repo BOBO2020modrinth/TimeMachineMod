@@ -1,9 +1,13 @@
-// 1.21.1	2024-08-23T00:00:52.6832438	Loot Tables
+// 1.21.1	2024-08-23T23:00:36.3087932	Loot Tables
 82e69382bf78a2d370f3cb0f683d233b940bb96b data/time_machine/loot_table/blocks/ancient_light_cobblestone.json
 af652ab939a6267d63c60df00d4e05909c3cdbe9 data/time_machine/loot_table/blocks/ancient_light_stone.json
 3c50ddb24f52d365be328629a1897fdecf6a12a1 data/time_machine/loot_table/blocks/antimony_block.json
 787b63050249d0e1ec55ddaec29edb6c7662b99d data/time_machine/loot_table/blocks/antimony_ore.json
+d5636fa6afe52134692f2a4f1345d8679825a300 data/time_machine/loot_table/blocks/light_cobblestone_slab.json
+e2baf8aa3ffc4729b74a6830b9b8f4d63cca0294 data/time_machine/loot_table/blocks/light_cobblestone_stairs.json
 67d50250a9aef9ff8f94388db61d96e97b6f72b9 data/time_machine/loot_table/blocks/light_stone_bricks.json
+26d076063e4c27967de06e350ce3af981a21263d data/time_machine/loot_table/blocks/light_stone_button.json
+03e61e965bbc061af4bd42b7c38afc3d0db71312 data/time_machine/loot_table/blocks/light_stone_pressure_plate.json
 8d07b577d578cd1382d18bb8eb6edf31bb0f6e9e data/time_machine/loot_table/blocks/light_stone_slab.json
 e4186e1ab1d2c497729ea9b6e477b1a179bc1c3e data/time_machine/loot_table/blocks/light_stone_stairs.json
 c1d14a6b24efd79a0a3db4c7b60fb31b4f146735 data/time_machine/loot_table/blocks/light_stone_tile.json
