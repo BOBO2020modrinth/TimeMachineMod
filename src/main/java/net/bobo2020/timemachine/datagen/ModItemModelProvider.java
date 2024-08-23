@@ -23,12 +23,30 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.PURSLANE.get());
         basicItem(ModItems.MOSSY_PEAT.get());
 
+        fenceItem(ModBlocks.LIGHT_STONE_FENCE, ModBlocks.ANCIENT_LIGHT_STONE);
+        wallItem(ModBlocks.LIGHT_STONE_WALL, ModBlocks.ANCIENT_LIGHT_STONE);
+        wallItem(ModBlocks.LIGHT_COBBLESTONE_WALL, ModBlocks.ANCIENT_LIGHT_COBBLESTONE);
+
+        basicItem(ModBlocks.LIGHT_STONE_DOOR.asItem());
+
         buttonItem(ModBlocks.LIGHT_STONE_BUTTON, ModBlocks.ANCIENT_LIGHT_STONE);
     }
 
     public void buttonItem(DeferredBlock<Block> block, DeferredBlock<Block> baseBlock) {
         this.withExistingParent(block.getId().getPath(), mcLoc("block/button_inventory"))
                 .texture("texture", ResourceLocation.fromNamespaceAndPath(TimeMachine.MOD_ID,
+                        "block/" + baseBlock.getId().getPath()));
+    }
+
+    public void fenceItem(DeferredBlock<Block> block, DeferredBlock<Block> baseBlock) {
+        this.withExistingParent(block.getId().getPath(), mcLoc("block/fence_inventory"))
+                .texture("texture", ResourceLocation.fromNamespaceAndPath(TimeMachine.MOD_ID,
+                        "block/" + baseBlock.getId().getPath()));
+    }
+
+    public void wallItem(DeferredBlock<Block> block, DeferredBlock<Block> baseBlock) {
+        this.withExistingParent(block.getId().getPath(), mcLoc("block/wall_inventory"))
+                .texture("wall", ResourceLocation.fromNamespaceAndPath(TimeMachine.MOD_ID,
                         "block/" + baseBlock.getId().getPath()));
     }
 }

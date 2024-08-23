@@ -1,3 +1,6 @@
-// 1.21.1	2024-08-23T00:00:52.6782575	Tags for minecraft:block mod id time_machine
+// 1.21.1	2024-08-24T00:45:12.7746715	Tags for minecraft:block mod id time_machine
+d711ae0931e0da26a133b17660567ca3a5bd56a1 data/minecraft/tags/block/fence_gates.json
 f40cf473f0b9153529a716cad0bd2891296bc19b data/minecraft/tags/block/mineable/pickaxe.json
 46013e7c24200ffc9d8a077ce77cdce64f826f3a data/minecraft/tags/block/needs_stone_tool.json
+df774bfa82de777a4d4826bc7915acd16bafcf48 data/minecraft/tags/block/walls.json
+bd7f416a7e2058ece1de20d8e448d8081739a57d data/minecraft/tags/block/wooden_fences.json

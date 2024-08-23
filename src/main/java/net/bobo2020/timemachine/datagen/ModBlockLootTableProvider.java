@@ -47,6 +47,16 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         this.add(ModBlocks.LIGHT_COBBLESTONE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.LIGHT_COBBLESTONE_SLAB.get()));
 
+        dropSelf(ModBlocks.LIGHT_STONE_WALL.get());
+        dropSelf(ModBlocks.LIGHT_STONE_FENCE.get());
+        dropSelf(ModBlocks.LIGHT_STONE_FENCE_GATE.get());
+        dropSelf(ModBlocks.LIGHT_COBBLESTONE_WALL.get());
+
+        this.add(ModBlocks.LIGHT_STONE_DOOR.get(),
+                block -> createDoorTable(ModBlocks.LIGHT_STONE_DOOR.get()));
+
+        dropSelf(ModBlocks.LIGHT_STONE_TRAPDOOR.get());
+
         dropSelf(ModBlocks.LIGHT_STONE_PRESSURE_PLATE.get());
         dropSelf(ModBlocks.LIGHT_STONE_BUTTON.get());
 

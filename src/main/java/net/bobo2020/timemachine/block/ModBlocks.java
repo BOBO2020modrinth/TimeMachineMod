@@ -8,6 +8,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -42,6 +43,25 @@ public class ModBlocks {
     public static final DeferredBlock<Block> LIGHT_COBBLESTONE_SLAB = registerBlock("light_cobblestone_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of().strength(0.75f).sound(SoundType.STONE)
                     .requiresCorrectToolForDrops()));
+    public static final DeferredBlock<Block> LIGHT_STONE_FENCE = registerBlock("light_stone_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of().strength(0.75f)
+                    .sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission()));
+    public static final DeferredBlock<Block> LIGHT_STONE_FENCE_GATE = registerBlock("light_stone_fence_gate",
+            () -> new FenceGateBlock(WoodType.BAMBOO, BlockBehaviour.Properties.of().strength(0.75f)
+                    .sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission()));
+    public static final DeferredBlock<Block> LIGHT_STONE_WALL = registerBlock("light_stone_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of().strength(0.75f)
+                    .sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission()));
+    public static final DeferredBlock<Block> LIGHT_COBBLESTONE_WALL = registerBlock("light_cobblestone_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of().strength(0.75f)
+                    .sound(SoundType.STONE).requiresCorrectToolForDrops().noCollission()));
+
+    public static final DeferredBlock<Block> LIGHT_STONE_DOOR = registerBlock("light_stone_door",
+            () -> new DoorBlock(BlockSetType.STONE, BlockBehaviour.Properties.of().strength(0.75f)
+                    .sound(SoundType.STONE).requiresCorrectToolForDrops().noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_STONE_TRAPDOOR = registerBlock("light_stone_trapdoor",
+            () -> new TrapDoorBlock(BlockSetType.STONE, BlockBehaviour.Properties.of().strength(0.75f)
+                    .sound(SoundType.STONE).requiresCorrectToolForDrops().noOcclusion()));
 
     public static final DeferredBlock<Block> LIGHT_STONE_PRESSURE_PLATE = registerBlock("light_stone_pressure_plate",
             () -> new PressurePlateBlock(BlockSetType.STONE, BlockBehaviour.Properties.of().strength(0.75f)

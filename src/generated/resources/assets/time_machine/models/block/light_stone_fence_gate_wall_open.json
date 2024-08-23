@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fence_gate_wall_open",
+  "textures": {
+    "texture": "time_machine:block/ancient_light_stone"
+  }
+}

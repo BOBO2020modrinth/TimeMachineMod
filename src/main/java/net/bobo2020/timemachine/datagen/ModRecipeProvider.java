@@ -60,6 +60,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         slab(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_COBBLESTONE_SLAB.get(),
                 ModBlocks.ANCIENT_LIGHT_COBBLESTONE.get());
 
+        wall(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_STONE_WALL.get(),
+                ModBlocks.ANCIENT_LIGHT_STONE.get());
+        wall(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_COBBLESTONE_WALL.get(),
+                ModBlocks.ANCIENT_LIGHT_COBBLESTONE.get());
+
+        doorBuilder(ModBlocks.LIGHT_STONE_DOOR.get(), Ingredient.of(ModBlocks.ANCIENT_LIGHT_STONE.get()))
+                .group("light_stone").unlockedBy("has_stone",
+                        has(ModBlocks.ANCIENT_LIGHT_STONE.get())).save(pRecipeOutput);
+        trapdoorBuilder(ModBlocks.LIGHT_STONE_TRAPDOOR.get(), Ingredient.of(ModBlocks.ANCIENT_LIGHT_STONE.get()))
+                .group("light_stone").unlockedBy("has_stone",
+                        has(ModBlocks.ANCIENT_LIGHT_STONE.get())).save(pRecipeOutput);
+
+
         pressurePlate(pRecipeOutput, ModBlocks.LIGHT_STONE_PRESSURE_PLATE.get(), ModBlocks.ANCIENT_LIGHT_STONE.get());
         buttonBuilder(ModBlocks.LIGHT_STONE_BUTTON.get(), Ingredient.of(ModBlocks.ANCIENT_LIGHT_STONE.get()))
                 .group("light_stone").unlockedBy("has_light_stone", has(ModBlocks.ANCIENT_LIGHT_STONE.get()))

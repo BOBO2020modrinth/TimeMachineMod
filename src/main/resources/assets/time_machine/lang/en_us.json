@@ -18,6 +18,14 @@
   "block.time_machine.light_cobblestone_stairs": "Light Cobblestone Stairs",
   "block.time_machine.light_cobblestone_slab": "Light Cobblestone Slab",
 
+  "block.time_machine.light_stone_wall": "Light Stone Wall",
+  "block.time_machine.light_stone_fence": "Light Stone Fence",
+  "block.time_machine.light_stone_fence_gate": "Light Stone Fence Gate",
+  "block.time_machine.light_cobblestone_wall": "Light Cobblestone Wall",
+
+  "block.time_machine.light_stone_door": "Light Stone Door",
+  "block.time_machine.light_stone_trapdoor": "Light Stone Trapdoor",
+
   "block.time_machine.light_stone_pressure_plate": "Light Stone Pressure Plate",
   "block.time_machine.light_stone_button": "Light Stone Button",
 

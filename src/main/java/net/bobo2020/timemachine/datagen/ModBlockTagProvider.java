@@ -31,5 +31,15 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         this.tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.ANTIMONY_ORE.get())
                 .add(ModBlocks.ANTIMONY_BLOCK.get());
+
+        tag(BlockTags.WOODEN_FENCES)
+                .add(ModBlocks.LIGHT_STONE_FENCE.get());
+
+        tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.LIGHT_STONE_FENCE_GATE.get());
+
+        tag(BlockTags.WALLS)
+                .add(ModBlocks.LIGHT_STONE_WALL.get())
+                .add(ModBlocks.LIGHT_COBBLESTONE_WALL.get());
     }
 }

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ancient_light_cobblestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "time_machine:ancient_light_cobblestone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "time_machine:light_cobblestone_wall"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ancient_light_cobblestone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "time_machine:light_cobblestone_wall"
+    ]
+  }
+}

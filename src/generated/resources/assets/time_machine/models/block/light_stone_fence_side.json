@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "time_machine:block/ancient_light_stone"
+  }
+}

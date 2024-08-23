@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "time_machine:block/ancient_light_cobblestone"
+  }
+}
