@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "time_machine:block/light_stone_slab"
+    },
+    "type=double": {
+      "model": "time_machine:block/ancient_light_stone"
+    },
+    "type=top": {
+      "model": "time_machine:block/light_stone_slab_top"
+    }
+  }
+}

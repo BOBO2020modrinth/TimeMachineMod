@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.ANTIMONY_INGOT);
                         pOutput.accept(ModItems.STONE_SHARD_LIGHT);
                         pOutput.accept(ModItems.PURSLANE);
+                        pOutput.accept(ModItems.MOSSY_PEAT);
                     }).build());
 
     public static final Supplier<CreativeModeTab> ANCIENT_ERA_BLOCK =
@@ -34,6 +35,8 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(TimeMachine.MOD_ID, "ancient_era_item"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.ANCIENT_LIGHT_STONE);
+                        pOutput.accept(ModBlocks.LIGHT_STONE_STAIRS);
+                        pOutput.accept(ModBlocks.LIGHT_STONE_SLAB);
                         pOutput.accept(ModBlocks.ANCIENT_LIGHT_COBBLESTONE);
                         pOutput.accept(ModBlocks.LIGHT_STONE_BRICKS);
                         pOutput.accept(ModBlocks.LIGHT_STONE_TILE);

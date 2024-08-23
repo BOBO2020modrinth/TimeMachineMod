@@ -1,6 +1,8 @@
 {
   "values": [
     "time_machine:ancient_light_stone",
+    "time_machine:light_stone_stairs",
+    "time_machine:light_stone_slab",
     "time_machine:ancient_light_cobblestone",
     "time_machine:light_stone_bricks",
     "time_machine:light_stone_tile",

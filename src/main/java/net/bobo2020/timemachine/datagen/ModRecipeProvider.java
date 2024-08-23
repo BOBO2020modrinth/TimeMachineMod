@@ -48,6 +48,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.ANTIMONY_INGOT.get())
                 .unlockedBy("has_light_stone", has(ModItems.ANTIMONY_INGOT.get())).save(pRecipeOutput);
 
+        stairBuilder(ModBlocks.LIGHT_STONE_STAIRS.get(), Ingredient.of(ModBlocks.ANCIENT_LIGHT_STONE.get()))
+                .group("light_stairs").unlockedBy("has_light_stone", has(ModBlocks.ANCIENT_LIGHT_STONE.get()))
+                .save(pRecipeOutput);
+
+        slab(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_STONE_SLAB.get(),
+                ModBlocks.ANCIENT_LIGHT_STONE.get());
+
         // Smelting
         oreSmelting(pRecipeOutput, LIGHT_STONE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ANCIENT_LIGHT_STONE.get(),
                 0f, 200, "light_stone");
@@ -58,6 +65,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreBlasting(pRecipeOutput, ANTIMONY_ORES, RecipeCategory.MISC, ModItems.ANTIMONY_INGOT.get(),
                 0.75f, 100, "antimony");
     }
+
 
     protected static void oreSmelting(RecipeOutput pRecipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
                                       float pExperience, int pCookingTIme, String pGroup) {

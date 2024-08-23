@@ -1,14 +1,11 @@
 package net.bobo2020.timemachine.block;
 
 import net.bobo2020.timemachine.TimeMachine;
-import net.bobo2020.timemachine.block.custom.RuneBlock;
 import net.bobo2020.timemachine.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -30,6 +27,14 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().strength(0.8f).sound(SoundType.STONE).requiresCorrectToolForDrops()));
     public static final DeferredBlock<Block> LIGHT_STONE_TILE = registerBlock("light_stone_tile",
             () -> new Block(BlockBehaviour.Properties.of().strength(0.8f).sound(SoundType.STONE).requiresCorrectToolForDrops()));
+
+    // Non-Blocks Block
+    public static final DeferredBlock<Block> LIGHT_STONE_STAIRS = registerBlock("light_stone_stairs",
+            () -> new StairBlock(ModBlocks.ANCIENT_LIGHT_STONE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(0.75f).sound(SoundType.STONE).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<Block> LIGHT_STONE_SLAB = registerBlock("light_stone_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(0.75f).sound(SoundType.STONE)
+                    .requiresCorrectToolForDrops()));
 
     public static final DeferredBlock<Block> ANTIMONY_ORE = registerBlock("antimony_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 6),BlockBehaviour.Properties.of()

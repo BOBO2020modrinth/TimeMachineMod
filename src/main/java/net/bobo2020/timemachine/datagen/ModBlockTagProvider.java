@@ -20,6 +20,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.ANCIENT_LIGHT_STONE.get())
+                .add(ModBlocks.LIGHT_STONE_STAIRS.get())
+                .add(ModBlocks.LIGHT_STONE_SLAB.get())
                 .add(ModBlocks.ANCIENT_LIGHT_COBBLESTONE.get())
                 .add(ModBlocks.LIGHT_STONE_BRICKS.get())
                 .add(ModBlocks.LIGHT_STONE_TILE.get())

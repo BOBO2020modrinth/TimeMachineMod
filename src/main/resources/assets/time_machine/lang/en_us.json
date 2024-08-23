@@ -6,14 +6,21 @@
 
   "item.time_machine.purslane": "Purslane",
 
+  "item.time_machine.mossy_peat": "Mossy Peat",
+
   "block.time_machine.ancient_light_stone": "Ancient Light Stone",
   "block.time_machine.ancient_light_cobblestone": "Ancient Light Cobblestone",
   "block.time_machine.light_stone_bricks": "Light Bricks",
   "block.time_machine.light_stone_tile": "Light Tile",
 
+  "block.time_machine.light_stone_stairs": "Light Stone Stairs",
+  "block.time_machine.light_stone_slab": "Light Stone Slab",
+
   "block.time_machine.antimony_ore": "Antimony Ore",
   "block.time_machine.antimony_block": "Block of Antimony",
 
   "itemGroup.time_machine.ancient_era_item": "Ancient Era: Item",
-  "itemGroup.time_machine.ancient_era_block": "Ancient Era: Block"
+  "itemGroup.time_machine.ancient_era_block": "Ancient Era: Block",
+
+  "tooltip.time_machine.light_shard": "§6Variant:§r §eLight Stone§r"
 }

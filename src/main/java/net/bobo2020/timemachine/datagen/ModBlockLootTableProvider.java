@@ -39,6 +39,11 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.LIGHT_STONE_TILE.get());
         dropSelf(ModBlocks.ANTIMONY_BLOCK.get());
 
+        dropSelf(ModBlocks.LIGHT_STONE_STAIRS.get());
+
+        this.add(ModBlocks.LIGHT_STONE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.LIGHT_STONE_SLAB.get()));
+
         this.add(ModBlocks.ANCIENT_LIGHT_STONE.get(),
                 block -> createShardDrop(ModBlocks.ANCIENT_LIGHT_COBBLESTONE.get(), ModItems.STONE_SHARD_LIGHT.get()));
         this.add(ModBlocks.ANCIENT_LIGHT_COBBLESTONE.get(),
