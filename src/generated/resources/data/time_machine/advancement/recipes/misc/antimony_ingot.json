@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_antimony_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "time_machine:antimony_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "time_machine:antimony_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_antimony_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "time_machine:antimony_ingot"
+    ]
+  }
+}

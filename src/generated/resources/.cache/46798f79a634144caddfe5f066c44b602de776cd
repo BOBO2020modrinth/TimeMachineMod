@@ -1,6 +1,13 @@
-// 1.21.1	2024-08-24T00:45:12.7746715	Tags for minecraft:block mod id time_machine
+// 1.21.1	2024-08-31T16:54:15.3784705	Tags for minecraft:block mod id time_machine
 d711ae0931e0da26a133b17660567ca3a5bd56a1 data/minecraft/tags/block/fence_gates.json
+dcac8e8b0e36bedcddc64865c94982358573718c data/minecraft/tags/block/incorrect_for_gold_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/block/incorrect_for_iron_tool.json
+dcac8e8b0e36bedcddc64865c94982358573718c data/minecraft/tags/block/incorrect_for_stone_tool.json
+dcac8e8b0e36bedcddc64865c94982358573718c data/minecraft/tags/block/incorrect_for_wooden_tool.json
 f40cf473f0b9153529a716cad0bd2891296bc19b data/minecraft/tags/block/mineable/pickaxe.json
-46013e7c24200ffc9d8a077ce77cdce64f826f3a data/minecraft/tags/block/needs_stone_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/block/needs_diamond_tool.json
 df774bfa82de777a4d4826bc7915acd16bafcf48 data/minecraft/tags/block/walls.json
 bd7f416a7e2058ece1de20d8e448d8081739a57d data/minecraft/tags/block/wooden_fences.json
+ca0299e85e8acb7c94114166fc8844363966bc9f data/time_machine/tags/block/incorrect_for_light_stone_tool.json
+984a835f12c583514b244703d6bad1afa79b3402 data/time_machine/tags/block/mineable/paxel.json
+b4c8274de77b950f7051321ca943e1bd508d3dc6 data/time_machine/tags/block/needs_light_stone_tool.json

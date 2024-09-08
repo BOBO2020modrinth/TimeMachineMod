@@ -1,10 +1,19 @@
-// 1.21.1	2024-08-24T01:48:47.0400335	Item Models: time_machine
+// 1.21.1	2024-09-02T21:43:30.8101856	Item Models: time_machine
 9b47936ed41c66a60478ce6812101cb3ac959303 assets/time_machine/models/item/antimony_ingot.json
+7cc51ffc3d1a82f98bb5e1d9e356bbe68237e5ef assets/time_machine/models/item/light_axe.json
 5f7642d6f9fabc4ff0c7db35e3dbc631ad4da2e9 assets/time_machine/models/item/light_cobblestone_wall.json
+59f001496cf2aee44d6d94c8113793700633a601 assets/time_machine/models/item/light_complex_hammer.json
+473ad068033ca3750f07d0f9bbe9dd3770a06014 assets/time_machine/models/item/light_hammer.json
+4193e15c0c9e44713c0b87666afc695fed58ea60 assets/time_machine/models/item/light_hoe.json
+99083dcd9344730641ed19fbe9c2ca63ee9416e1 assets/time_machine/models/item/light_paxel.json
+1db0743594d69ac2ceeeba6c2b43c88643bb04b8 assets/time_machine/models/item/light_pickaxe.json
+ab2bf2854c7fe42b2ad63111aa803f976bf66854 assets/time_machine/models/item/light_shovel.json
+3811969f720f009f803350a1b2b4b4cfd9888562 assets/time_machine/models/item/light_stick.json
 2c7d6c449bed5f95a0953cf74e74763f76b6f3e2 assets/time_machine/models/item/light_stone_button.json
 9b6033f32d7fe6bf6bdaa38d0f875be3277a4303 assets/time_machine/models/item/light_stone_door.json
 b5f0bd14a75230a844847b9782cfee604a0f9976 assets/time_machine/models/item/light_stone_fence.json
 d93352b22e30664698f983657cd16e73a27407c3 assets/time_machine/models/item/light_stone_wall.json
+a46c5a1fcf01843cca0e9262fb413193cb7b7cc9 assets/time_machine/models/item/light_sword.json
 92124400a4cf5243365a3b2165f3d22ec48af673 assets/time_machine/models/item/mossy_peat.json
 63e483f51da671fc090ba3c88efc27cbca220b77 assets/time_machine/models/item/purslane.json
 db2a983f0440595e163f39da1731417ee6d9a0ea assets/time_machine/models/item/raw_antimony.json

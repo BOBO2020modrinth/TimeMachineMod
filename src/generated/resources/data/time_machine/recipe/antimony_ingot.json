@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "time_machine:antimony_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "time_machine:antimony_ingot"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stone_shard_light": {
+      "conditions": {
+        "items": [
+          {
+            "items": "time_machine:stone_shard_light"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "time_machine:light_hoe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stone_shard_light"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "time_machine:light_hoe"
+    ]
+  }
+}

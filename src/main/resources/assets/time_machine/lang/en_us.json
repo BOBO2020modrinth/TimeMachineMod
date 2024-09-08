@@ -1,5 +1,15 @@
 {
   "item.time_machine.stone_shard_light": "Stone Shard",
+  "item.time_machine.light_stick": "Light Stick",
+
+  "item.time_machine.light_sword": "Light Sword",
+  "item.time_machine.light_hammer": "Light Hammer",
+  "item.time_machine.light_complex_hammer": "Light Complex Hammer",
+  "item.time_machine.light_pickaxe": "Light Pickaxe",
+  "item.time_machine.light_axe": "Light Axe",
+  "item.time_machine.light_shovel": "Light Shovel",
+  "item.time_machine.light_hoe": "Light Hoe",
+  "item.time_machine.light_paxel": "Light Paxel",
 
   "item.time_machine.raw_antimony": "Raw Antimony",
   "item.time_machine.antimony_ingot": "Antimony Ingot",
@@ -7,6 +17,7 @@
   "item.time_machine.purslane": "Purslane",
 
   "item.time_machine.mossy_peat": "Mossy Peat",
+
 
   "block.time_machine.ancient_light_stone": "Ancient Light Stone",
   "block.time_machine.ancient_light_cobblestone": "Ancient Light Cobblestone",
@@ -32,8 +43,10 @@
   "block.time_machine.antimony_ore": "Antimony Ore",
   "block.time_machine.antimony_block": "Block of Antimony",
 
+
   "itemGroup.time_machine.ancient_era_item": "Ancient Era: Item",
   "itemGroup.time_machine.ancient_era_block": "Ancient Era: Block",
+
 
   "tooltip.time_machine.light_shard": "§6Variant:§r §eLight Stone§r"
 }

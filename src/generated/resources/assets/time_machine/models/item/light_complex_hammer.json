@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "time_machine:item/light_complex_hammer"
+  }
+}

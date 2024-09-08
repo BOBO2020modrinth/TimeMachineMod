@@ -26,6 +26,16 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.STONE_SHARD_LIGHT);
                         pOutput.accept(ModItems.PURSLANE);
                         pOutput.accept(ModItems.MOSSY_PEAT);
+
+                        pOutput.accept(ModItems.LIGHT_STICK);
+                        pOutput.accept(ModItems.LIGHT_SWORD);
+                        pOutput.accept(ModItems.LIGHT_HAMMER);
+                        pOutput.accept(ModItems.LIGHT_COMPLEX_HAMMER);
+                        pOutput.accept(ModItems.LIGHT_AXE);
+                        pOutput.accept(ModItems.LIGHT_SHOVEL);
+                        pOutput.accept(ModItems.LIGHT_PICKAXE);
+                        pOutput.accept(ModItems.LIGHT_HOE);
+                        pOutput.accept(ModItems.LIGHT_PAXEL);
                     }).build());
 
     public static final Supplier<CreativeModeTab> ANCIENT_ERA_BLOCK =
@@ -44,12 +54,15 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.LIGHT_STONE_FENCE);
                         pOutput.accept(ModBlocks.LIGHT_STONE_FENCE_GATE);
                         pOutput.accept(ModBlocks.LIGHT_STONE_BUTTON);
+
                         pOutput.accept(ModBlocks.ANCIENT_LIGHT_COBBLESTONE);
                         pOutput.accept(ModBlocks.LIGHT_COBBLESTONE_STAIRS);
                         pOutput.accept(ModBlocks.LIGHT_COBBLESTONE_SLAB);
                         pOutput.accept(ModBlocks.LIGHT_COBBLESTONE_WALL);
+
                         pOutput.accept(ModBlocks.LIGHT_STONE_BRICKS);
                         pOutput.accept(ModBlocks.LIGHT_STONE_TILE);
+
                         pOutput.accept(ModBlocks.ANTIMONY_ORE);
                         pOutput.accept(ModBlocks.ANTIMONY_BLOCK);
                     }).build());

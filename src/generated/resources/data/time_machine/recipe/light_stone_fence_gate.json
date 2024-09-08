@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "A": {
+      "item": "time_machine:ancient_light_stone"
+    },
+    "B": {
+      "item": "time_machine:light_stick"
+    }
+  },
+  "pattern": [
+    "BAB",
+    "BAB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "time_machine:light_stone_fence_gate"
+  }
+}

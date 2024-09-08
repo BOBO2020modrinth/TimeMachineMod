@@ -1,6 +1,7 @@
 package net.bobo2020.timemachine.datagen;
 
 import net.bobo2020.timemachine.TimeMachine;
+import net.bobo2020.timemachine.item.ModItems;
 import net.bobo2020.timemachine.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -19,12 +20,17 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-        tag(ModTags.Items.PICKAXES)
+        this.tag(ModTags.Items.PICKAXES)
+                .addTag(ModTags.Items.HAMMERS)
                 .add(Items.WOODEN_PICKAXE)
                 .add(Items.STONE_PICKAXE)
                 .add(Items.IRON_PICKAXE)
                 .add(Items.GOLDEN_PICKAXE)
                 .add(Items.DIAMOND_PICKAXE)
-                .add(Items.NETHERITE_PICKAXE);
+                .add(Items.NETHERITE_PICKAXE)
+                .add(ModItems.LIGHT_PICKAXE.get());
+
+        this.tag(ModTags.Items.HAMMERS)
+                .add(ModItems.LIGHT_HAMMER.get());
     }
 }

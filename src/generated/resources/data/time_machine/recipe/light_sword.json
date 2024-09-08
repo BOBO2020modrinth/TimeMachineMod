@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "time_machine:stone_shard_light"
+    },
+    "B": {
+      "item": "time_machine:light_stick"
+    }
+  },
+  "pattern": [
+    "A",
+    "A",
+    "B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "time_machine:light_sword"
+  }
+}

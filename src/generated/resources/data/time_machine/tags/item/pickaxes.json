@@ -1,10 +1,12 @@
 {
   "values": [
+    "#time_machine:hammers",
     "minecraft:wooden_pickaxe",
     "minecraft:stone_pickaxe",
     "minecraft:iron_pickaxe",
     "minecraft:golden_pickaxe",
     "minecraft:diamond_pickaxe",
-    "minecraft:netherite_pickaxe"
+    "minecraft:netherite_pickaxe",
+    "time_machine:light_pickaxe"
   ]
 }

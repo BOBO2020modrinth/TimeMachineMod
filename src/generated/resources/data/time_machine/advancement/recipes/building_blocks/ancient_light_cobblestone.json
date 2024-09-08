@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_light_stone": {
+    "has_stone_shard_light": {
       "conditions": {
         "items": [
           {
-            "items": "time_machine:ancient_light_stone"
+            "items": "time_machine:stone_shard_light"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_light_stone"
+      "has_stone_shard_light"
     ]
   ],
   "rewards": {
